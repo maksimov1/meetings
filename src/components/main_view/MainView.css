@@ -1,0 +1,68 @@
+.main_view {
+    margin: 0 25%;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+}
+
+.navi_block {
+    width: 65%;
+    margin-bottom: 30px;
+}
+
+.find_contract {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.frm {
+    margin-right: 5px;
+    width: 75%;
+}
+
+.text_input {
+    font-family: 'Open Sans', sans-serif;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    outline: 0;
+    -webkit-appearance: none;
+    border: 1px solid #968E8B;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.action_button {
+    font-family: 'Open Sans', sans-serif;
+    transition: all 200ms;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    width: 20%;
+    user-select: none;
+    outline: none;
+    border: none;
+}
+
+.action_button:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px -3px #222;
+}
+
+.action_button.new_event {
+    width: 30%;
+    font-size: 1em;
+    padding: 12px 18px;
+}
+
+.new_contract {
+    display: flex;
+    justify-content: flex-end;
+}
